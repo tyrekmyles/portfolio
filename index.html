@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Your Name</h1>
+    <p>Welcome to my portfolio! Here are some of my projects:</p>
+  </header>
+
+  <!-- Project Section -->
+  <section id="projects">
+    <div class="project" data-description="Description of Project 1">
+      <h2>Project 1</h2>
+    </div>
+    <div class="project" data-description="Description of Project 2">
+      <h2>Project 2</h2>
+    </div>
+    <div class="project" data-description="Description of Project 3">
+      <h2>Project 3</h2>
+    </div>
+  </section>
+
+  <!-- Modal Structure -->
+  <div id="projectModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Contact me: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
